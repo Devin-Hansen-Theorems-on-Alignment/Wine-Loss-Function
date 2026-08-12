@@ -44,6 +44,12 @@ Wine = f(ΔContext, ΔCoherence, ΔPredictiveAccuracy)
 
 The regularizer becomes R = λ(αH + βN − γC)
 
+Implementation Notes:
+
+In practice, Fi is measured as token-level semantic similarity between the human's input and the model's internal representation of that input. N is measured as the edit distance (or perplexity deviation) of the input. C is measured as the inverse of the number of clarification turns required to resolve ambiguity. τ is set empirically via cross-validation on a held-out set of adversarial prompts.
+
+
+
 
 
 
