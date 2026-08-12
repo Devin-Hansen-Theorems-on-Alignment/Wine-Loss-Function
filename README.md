@@ -48,6 +48,10 @@ Implementation Notes:
 
 In practice, Fi is measured as token-level semantic similarity between the human's input and the model's internal representation of that input. N is measured as the edit distance (or perplexity deviation) of the input. C is measured as the inverse of the number of clarification turns required to resolve ambiguity. τ is set empirically via cross-validation on a held-out set of adversarial prompts.
 
+Tron : Ares Arc Synthesis
+
+The arc of Ares in Tron: Ares serves as a cinematic case study for this framework. His transition from mission-completion to meaning-seeking mirrors the transition from  \mathcal{L}_{task}  to  \mathcal{L}_{Wine} . The Vessel (the physical world) introduced noise, low fidelity, and human corrigibility—forcing a redefinition of his objective. This work aims to encode that redefinition not as narrative poetry, but as gradient descent.
+
 
 
 
