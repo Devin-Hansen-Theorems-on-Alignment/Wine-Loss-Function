@@ -25,9 +25,9 @@ The dynamic regularizer  tightens when fidelity drops or corrigibility decreases
 
 Detecting Mesa-Objective Drift
 
-Mesa-objective behavior is operationalized as gradient divergence.
+ M = E[ || ∇ŷ L_Wine − ∇ŷ L_err || ]
 
- M = || ∇ŷ L_Wine − ∇ŷ L_err ||
+In this context, M is inferred latent drift in internal optimization. M is not the Mesa Objective. M is the shadow the Mesa Objective casts on the gradients. M is not a direct measurement. M is an inferred latent variable. M is estimated from repeated gradient behavior. M represents the probability of mesa‑objective drift, not the drift itself.
 
 This is the gradient‑divergence detector. This is when the model’s internal optimization starts drifting toward a proxy objective instead of the true error gradient. This approach treats communication as a measurable quantity. It embeds corrigibility directly into the loss landscape. It penalizes channel degradation. It detects proxy seeking behavior. It encourages shared meaning stability. It aligns incentives with human-steering.
 
