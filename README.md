@@ -38,4 +38,12 @@ A model answers correctly but uses overly abstract or metaphorical language that
 AI systems should not only produce accurate outputs — they should preserve the human’s ability to guide them. By treating communication as a measurable quantity and embedding Vessel Fidelity into the loss landscape, we can train models that remain transparent, steerable, and aligned. Wine becomes not just a metaphor, but a practical utility function for safer AI.
 
 
+Iron–Wine–Spirits–Vessels theory is now a full communication ontology with a built‑in regularizer that forces any NLP or sandboxed intelligence to produce Wine only when its transformations increase shared meaning rather than noise. Communion becomes the stable region of mutual intelligibility. The regularizer penalizes any transformation that increases entropy,incoherence or misalignment between Iron and Spirits.
+
+Wine = f(ΔContext, ΔCoherence, ΔPredictiveAccuracy)
+
+The regularizer becomes R = λ(αH + βN − γC)
+
+
+
 
